@@ -42,4 +42,4 @@ A través de una Jupyter Notebook se va a mostrar el código desarrollado en pyt
 
 La idea 💡 es que de manera interactiva puedan ir ejecutando (⌨️ ctrl+enter) cada una de las celdas de código presentadas, para luego poder visualizar el análisis 📊 resultante con el objeto de contrastar 🤔 con las respuestas comentadas.
 
-En el siguiente link se detalla los pasos a seguir para acceder a la Jupyter Notebook.
+En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/README.md#gu%C3%ADa-de-ejecuci%C3%B3n) se detallan los pasos a seguir para acceder a la Jupyter Notebook.
