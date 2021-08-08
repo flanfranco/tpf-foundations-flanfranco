@@ -80,15 +80,15 @@ Agregue una sección al README.md comentando como resolvió los ejercicios, link
 ### Elección de dataset y preguntas
 En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido junto con su modelo de datos y las preguntas de análisis a responder.
 
-### Documentación y ejecución end2end
-
-### Prerrequisitos
-asd
-
 ### Guía de ejecución
 
-Posicionados en la carpeta donde se encuentra el .yaml del docker-compose ejecutar:
+Fundamento elección docker compose como orquestador.
+Para poder ejecutar la solución es requisito tener instalado docker y docker compose en el sistema operativo.
+Descargar el contenido de este repositorio.
+Posicionados sobre la carpeta donde descargamos el repositorio, donde se encuentra el docker-compose.yaml ejecutamos:
 docker-compose up
+
+ToDo
 
 [Abrir la Notebook](http://127.0.0.1:8888/?token=itba_jupyter_notebook_token) 
 
