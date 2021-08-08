@@ -78,7 +78,7 @@ Agregue una sección al README.md comentando como resolvió los ejercicios, link
 ## Resolución de ejercicios
 
 ### Elección de dataset y preguntas
-En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido junto con su modelo de datos y las preguntas de análisis a responder.
+En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido, junto con su modelo de datos, y las preguntas de análisis a responder.
 
 ### Guía de ejecución
 
