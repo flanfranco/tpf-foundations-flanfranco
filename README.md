@@ -84,6 +84,12 @@ En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/
 
 Fundamento elección docker compose como orquestador.
 ToDo
+Las tecnologías utilizadas para resolver los distintos apartados fueron:
+
+1. Sistema operativo Linux Ubuntu 20.04
+2. Docker y Docker compose 
+3. DBeaver (Database manager para ejecutar consultas a la base de datos PostgreSQL desde el host)
+4. Github
 
 Para poder ejecutar la solución es requisito tener instalado docker y docker compose en el sistema operativo.
 Descargar el contenido de este repositorio.
