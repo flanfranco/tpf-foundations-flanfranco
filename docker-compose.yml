@@ -1,0 +1,40 @@
+version: "2.1"
+services:
+  db:
+    build: ./db/
+    ports:
+      - 1111:5432
+    networks:
+      - app-tier
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready --dbname $$POSTGRES_DB --username $$POSTGRES_USER"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app_load_db:
+    build: ./app_load_db/
+    volumes:
+      - ./app_load_db/csv_volume:/csv_volume   
+    networks:
+      - app-tier      
+    depends_on:
+      db:
+        condition: service_healthy 
+
+  jupyter:
+    build:
+      context: ./jupyter
+    ports:
+      - "8888:8888"
+    networks:
+      - app-tier      
+    volumes:
+      - "./notebooks:/notebooks"
+    depends_on:
+      app_load_db:
+        condition: service_started 
+      
+networks:
+  app-tier:
+    driver: bridge      
