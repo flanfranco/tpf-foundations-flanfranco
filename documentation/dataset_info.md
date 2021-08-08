@@ -33,6 +33,8 @@ A continuación se listan algunas preguntas a responder ejecutando consultas sob
 
 7. ¿Cuáles son los medios de pagos 💳 que prefieren los compradores brasileños?
 
+#### 📌 Modelo de Datos
+![Image of the Data Model](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/images/00_data_model.png)
 
 #### 📢 Antes de empezar:
 
