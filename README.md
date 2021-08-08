@@ -78,11 +78,13 @@ Agregue una sección al README.md comentando como resolvió los ejercicios, link
 ## Resolución de ejercicios
 
 ### Elección de dataset y preguntas
-En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido, junto con su modelo de datos, y las preguntas de análisis a responder.
+En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido, junto con su modelo de datos y las preguntas de análisis a responder.
 
 ### Guía de ejecución
 
 Fundamento elección docker compose como orquestador.
+ToDo
+
 Para poder ejecutar la solución es requisito tener instalado docker y docker compose en el sistema operativo.
 Descargar el contenido de este repositorio.
 Posicionados sobre la carpeta donde descargamos el repositorio, donde se encuentra el docker-compose.yaml ejecutamos:
