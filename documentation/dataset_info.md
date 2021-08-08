@@ -41,3 +41,5 @@ A continuación se listan algunas preguntas a responder ejecutando consultas sob
 A través de una Jupyter Notebook se va a mostrar el código desarrollado en python 🐍 correspondiente a la ejecución de consultas SQL sobre la base de datos de Olist, junto con la explotación analítica del resultado de dichas consultas que buscan responder los requerimientos planeteados. 
 
 La idea 💡 es que de manera interactiva puedan ir ejecutando (⌨️ ctrl+enter) cada una de las celdas de código presentadas, para luego poder visualizar el análisis 📊 resultante con el objeto de contrastar 🤔 con las respuestas comentadas.
+
+En el siguiente link se detalla los pasos a seguir para acceder a la Jupyter Notebook.
