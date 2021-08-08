@@ -80,6 +80,11 @@ Agregue una sección al README.md comentando como resolvió los ejercicios, link
 ### Elección de dataset y preguntas
 En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido junto con su modelo de datos y las preguntas de análisis a responder.
 
+### Documentación y ejecución end2end
+
+### Prerrequisitos
+asd
+
 ### Guía de ejecución
 
 Posicionados en la carpeta donde se encuentra el .yaml del docker-compose ejecutar:
