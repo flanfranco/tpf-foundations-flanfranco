@@ -94,7 +94,7 @@ Las tecnologías utilizadas para resolver los distintos apartados fueron:
 
 **¿Por qué Docker-Compose?**
 
-Se optó por Docker-Compose como orquestador sobre scripts de Bash principalmente porque ofrece un importante dinamismo a la hora de desplegar rápidamente una solución productiva. A su vez Docker-Compose mantiene el tracking de todo lo que ocurre con los containers ejecutados, y como característica fundamental ofrece estandarización y legilibilidad a la hora de definir la orquestación.
+Se optó por Docker-Compose como orquestador sobre scripts de Bash principalmente porque ofrece un importante dinamismo a la hora de desplegar rápidamente una solución productiva. A su vez Docker-Compose mantiene el tracking de todo lo que ocurre con los containers ejecutados, y como característica fundamental ofrece estandarización, legilibilidad, y portabilidad a la hora de definir la orquestación.
 
 Es importante remarcar que la resolución de los ejercicios podría llevarse a cabo completamente con scripts de Bash logrando los mismos resultados, utilizando piping (por ejemplo: echo "SQL Query;" | docker exec -i  docker_postgres_db_1 psql -U username database), variables (ejemplo: docker run -v $(pwd)/csv_volume:/csv_volume my-app-image) y estructuras lógicas de comparación e iteración para gestionar la ejecución de toda la orquestación. Es en base a este último punto donde se optó por una solución mas robusta como Docker-Compose para poder orquestar toda la ejecución, y a su vez que esta solución pueda servir como base para futuros trabajos prácticos correspondientes a los próximos módulos.
 
