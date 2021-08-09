@@ -106,6 +106,7 @@ A continuación se listan los pasos para desplegar la solución:
 3. Una vez que la solución terminó de desplegarse deberíamos ver algo similar a la siguiente captura:
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/01_deploy_example.png)
 Con lo cual el proceso se desplegó correctamente, y para poder acceder a la Jupyter Notebook que contiene el análisis solo haría falta acceder al siguiente [link](http://127.0.0.1:8888/?token=itba_jupyter_notebook_token): `http://127.0.0.1:8888/?token=itba_jupyter_notebook_token`
-4. 
-
-
+4. Una vez en el repositorio de Jupyter deberíamos seleccionar la siguiente notebook `ITBA...` como se muestra en la siguiente captura:
+![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/03_jupyter_notebook_file.png) 
+Accediendo finalmente a la notebook que contiene todo el análisis interactivo para responder los requerimientos planteados. Enjoy it!
+![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/04_jupyter_notebook_snapshot.png) 
