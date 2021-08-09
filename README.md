@@ -128,5 +128,9 @@ En los siguientes apartados se comenta en detalle las principales consideracione
 
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/08_python_script_load_db.png)
 
-5.
+5. Finalmente se comparte captura del dockerfile utilizado para resolver el Ejercicio 5:
+
+![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/09_dockerfile_jupyter.png)
+
+
 
