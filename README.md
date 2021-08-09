@@ -98,7 +98,8 @@ Es importante remarcar que la resolución de los ejercicios podría llevarse a c
 
 ### Guía de ejecución
 
-Para poder ejecutar la solución es requisito tener instalado docker y docker compose en el sistema operativo.
+Para poder ejecutar la solución es requisito tener instalado Docker y Docker-Compose en el sistema operativo.
+
 Descargar el contenido de este repositorio.
 Posicionados sobre la carpeta donde descargamos el repositorio, donde se encuentra el docker-compose.yaml ejecutamos:
 docker-compose up
