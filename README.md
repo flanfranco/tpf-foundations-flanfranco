@@ -133,6 +133,7 @@ En los siguientes apartados se comenta en detalle las principales consideracione
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/09_dockerfile_jupyter.png)
 
 ### Notas finales
-Es importante remarcar que se podría mejorar mucho mas la solución presentada, por ejemplo, en lo referido al script de python para que considere estructuras de control de errores, reintentos, logueo, etc... Todo esto podría desarrollarse como un framework para luego reutilizarse en otros proyectos. 
+Es importante remarcar que se podría mejorar mucho mas la solución presentada, por ejemplo, en lo referido al script de python para que considere control de excepciones, reintentos, logueo, etc... Todo esto podría desarrollarse como un framework para luego reutilizarse en otros proyectos. 
+También, respecto a la parametrización de la solución, los schemas, tablas y credenciales podrían haberse definido en un archivo externo (json) evitando el harcodeo en el desarrollo y mejorando aspectos referidos a la seguridad.
 A su vez se podrían haber utilizado imágenes de docker mucho mas pequeñas y básicas que las presentadas, redudiendo considerablemente el espacio de almacenamiento necesario para desplegar la solución.
 
