@@ -86,7 +86,7 @@ Las tecnologías utilizadas para resolver los distintos apartados fueron:
 
 1. Sistema operativo Linux Ubuntu 20.04
 2. Docker y Docker-Compose 
-3. DBeaver (Database manager para ejecutar consultas a la base de datos PostgreSQL desde el host)
+3. DBeaver
 4. Github
 
 **¿Por qué Docker-Compose?**
