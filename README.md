@@ -102,7 +102,11 @@ Para poder ejecutar la solución es requisito tener instalado Docker y Docker-Co
 
 A continuación se listan los pasos para correr la solución:
 1. Descargar el contenido de este [repositorio](https://github.com/flanfranco/tpf-foundations-flanfranco.git)
-2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo **docker-compose.yml** que contiene todos las especificaciones correspondiente al proceso de orquestación.
+2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo **docker-compose.yml** que contiene todas las especificaciones correspondientes al proceso de orquestación.
+Ejecutamos:
+```
+docker-compose up
+```
 3. 
 docker-compose up
 
