@@ -102,10 +102,10 @@ Para poder ejecutar la solución es requisito tener instalado Docker y Docker-Co
 
 A continuación se listan los pasos para desplegar la solución:
 1. Descargar el contenido del [repositorio](https://github.com/flanfranco/tpf-foundations-flanfranco.git)
-2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo que contiene todas las especificaciones correspondientes al proceso de orquestación **"docker-compose.yml"**.  Ejecutamos: `docker-compose up` para que se empiece a desplegar toda la solución.
+2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo que contiene todas las especificaciones correspondientes al proceso de orquestación **"docker-compose.yml"**.  Allí ejecutamos: `docker-compose up` para que se empiece a desplegar toda la solución.
 3. Una vez que la solución terminó de desplegarse deberíamos ver algo similar a la siguiente captura:
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/01_deploy_example.png)
-Con lo cual el proceso se desplegó correctamente, y para poder acceder a la Jupyter Notebook que contiene el análisis solo haría falta acceder al siguiente link: `http://127.0.0.1:8888/?token=itba_jupyter_notebook_token`
+Con lo cual el proceso se desplegó correctamente, y para poder acceder a la Jupyter Notebook que contiene el análisis solo haría falta acceder al siguiente [link](http://127.0.0.1:8888/?token=itba_jupyter_notebook_token): `http://127.0.0.1:8888/?token=itba_jupyter_notebook_token`
 4. 
 
 
