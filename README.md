@@ -100,8 +100,10 @@ Es importante remarcar que la resolución de los ejercicios podría llevarse a c
 
 Para poder ejecutar la solución es requisito tener instalado Docker y Docker-Compose en el sistema operativo.
 
-Descargar el contenido de este repositorio.
-Posicionados sobre la carpeta donde descargamos el repositorio, donde se encuentra el docker-compose.yaml ejecutamos:
+A continuación se listan los pasos para correr la solución:
+1. Descargar el contenido de este [repositorio](https://github.com/flanfranco/tpf-foundations-flanfranco.git)
+2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo **docker-compose.yml** que contiene todos las especificaciones correspondiente al proceso de orquestación.
+3. 
 docker-compose up
 
 ToDo
