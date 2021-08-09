@@ -108,5 +108,11 @@ A continuación se listan los pasos para desplegar la solución:
 4. Ya teniendo desplegada la solución, para poder acceder a la Jupyter Notebook (que contiene el análisis) solo haría falta ingresar al siguiente [link](http://127.0.0.1:8888/?token=itba_jupyter_notebook_token): `http://127.0.0.1:8888/?token=itba_jupyter_notebook_token`
 5. Una vez en el repositorio de Jupyter, deberíamos seleccionar la siguiente notebook `ITBA CDE TP Foundations Flavio Lanfranco.ipynb` como se muestra en la captura a continuación:
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/03_jupyter_notebook_file.png) 
-Logrando acceder, finalmente, a la notebook que contiene todo el análisis interactivo para responder los [requerimientos planteados](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md). Enjoy it!
+Logrando acceder, finalmente, a la notebook que contiene todo el análisis interactivo para responder los [requerimientos planteados](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md).
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/04_jupyter_notebook_snapshot.png) 
+
+### Comentarios acerca del desarrollo
+1.
+2.
+3.
+
