@@ -117,9 +117,16 @@ En los siguientes apartados se comenta en detalle las principales consideracione
 1. En la siguiente captura se muestra y comenta el contenido del `docker-compose.yml` detallando las características principales definidas para la orquestación:
 
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/05_docker_compose_yml.png) 
+
 2. Con respecto a la creación del container de la DB requerida en el Ejercicio 2, se comparte una captura del dockerfile donde además se muestra como se ejecuta la creación del schema y tablas necesarias para el Ejercicio 3:
 
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/06_dockerfile_db.png)
-3.
-4.
+
+3. En las siguientes capturas se muestra cómo se llevó adelante la resolución del Ejercicio 4 definiendo el siguiente dockerfile y script de python:
+
+![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/07_dockerfile_app_load_db.png)
+
+![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/08_python_script_load_db.png)
+
+5.
 
