@@ -80,16 +80,23 @@ Agregue una sección al README.md comentando como resolvió los ejercicios, link
 ### Elección de dataset y preguntas
 En el siguiente [link](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/dataset_info.md) se detalla el dataset elegido, junto con su modelo de datos y las preguntas de análisis a responder.
 
-### Guía de ejecución
+### Acerca de la solución
 
 Fundamento elección docker compose como orquestador.
 ToDo
+
 Las tecnologías utilizadas para resolver los distintos apartados fueron:
 
 1. Sistema operativo Linux Ubuntu 20.04
-2. Docker y Docker compose 
+2. Docker y Docker-Compose 
 3. DBeaver (Database manager para ejecutar consultas a la base de datos PostgreSQL desde el host)
 4. Github
+
+Se optó por Docker-Compose como orquestador sobre scripts de Bash principalmente porque ofrece un importante dinamismo a la hora de desplegar rápidamente una solución productiva. A su vez Docker-Compose mantiene el tracking de todo lo que ocurre con los containers ejecutados, y como característica fundamental ofrece estandarización y legilibilidad a la hora de definir la orquestación, con lo cual esta misma solución tranquilamente podría correr sobre sistemas operativos Windows.
+Es importante remarcar que la resolución de los ejercicios podría llevarse a cabo completamente con scripts de Bash logrando los mismos resultados, utilizando piping (por ejemplo: echo "SQL Query;" | docker exec -i  docker_postgres_db_1 psql -U username database), variables (ejemplo: docker run -v $(pwd)/csv_volume:/csv_volume my-app-image) y estructuras lógicas para gestionar la ejecución de toda la orquestación.
+
+
+### Guía de ejecución
 
 Para poder ejecutar la solución es requisito tener instalado docker y docker compose en el sistema operativo.
 Descargar el contenido de este repositorio.
