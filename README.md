@@ -115,8 +115,10 @@ Logrando acceder, finalmente, a la notebook que contiene todo el análisis inter
 En los siguientes apartados se comenta en detalle las principales consideraciones tenidas en cuenta en el desarrollo de la solución:
 
 1. En la siguiente captura se muestra y comenta el contenido del `docker-compose.yml` detallando las características principales definidas para la orquestación:
+
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/05_docker_compose_yml.png) 
-2. Con respecto a la creación del container de la DB requerida en el Ejercicio 2, se comparte una captura del dockerfile donde además se muestra como se ejecuta la creación del schema y tablas necesarias:
+2. Con respecto a la creación del container de la DB requerida en el Ejercicio 2, se comparte una captura del dockerfile donde además se muestra como se ejecuta la creación del schema y tablas necesarias para el Ejercicio 3:
+
 ![Image of the Deployment](https://github.com/flanfranco/tpf-foundations-flanfranco/blob/main/documentation/resources/images/06_dockerfile_db.png)
 3.
 4.
