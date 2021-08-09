@@ -101,17 +101,13 @@ Es importante remarcar que la resolución de los ejercicios podría llevarse a c
 Para poder ejecutar la solución es requisito tener instalado Docker y Docker-Compose en el sistema operativo.
 
 A continuación se listan los pasos para correr la solución:
-1. Descargar el contenido de este [repositorio](https://github.com/flanfranco/tpf-foundations-flanfranco.git)
-2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo **docker-compose.yml** que contiene todas las especificaciones correspondientes al proceso de orquestación.
-Ejecutamos:
-```
-docker-compose up
-```
+1. Descargar el contenido del [repositorio](https://github.com/flanfranco/tpf-foundations-flanfranco.git)
+2. Posicionados sobre la carpeta donde descargamos el contenido del repositorio ("tpf-foundations-flanfranco") se debería encontrar el archivo **docker-compose.yml** que contiene todas las especificaciones correspondientes al proceso de orquestación. En dicho directorio ejecutamos: `docker-compose up` para que se empiece a desplegar toda la solución según las especificaciones.
 3. 
-docker-compose up
 
-ToDo
+
+
 
 [Abrir la Notebook](http://127.0.0.1:8888/?token=itba_jupyter_notebook_token) 
 
-ToDo
+
